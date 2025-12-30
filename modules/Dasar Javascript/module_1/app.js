@@ -91,6 +91,13 @@ console.log(pharse.slice(0,10));
 let pharse_2 = "Saya suka belajar PHP"
 console.log(pharse_2.replace("PHP" , "Javascript"));
 
+// => Operator String 
+// Merupakan cara untuk menambahkan suatu string dengan string lain agar menjadi kalimat
+let firstName = "Clara";
+let middleName = "Fla";
+let lastName = "Audia";
 
+// menggunakan +
+console.log(firstName + " " + middleName + " " + lastName)
 
 
