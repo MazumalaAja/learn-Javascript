@@ -91,13 +91,82 @@ console.log(pharse.slice(0,10));
 let pharse_2 = "Saya suka belajar PHP"
 console.log(pharse_2.replace("PHP" , "Javascript"));
 
-// => Operator String 
-// Merupakan cara untuk menambahkan suatu string dengan string lain agar menjadi kalimat
+// => Operator String... 
+// Merupakan cara untuk menambahkan suatu string dengan string lain agar menjadi kalimat...
 let firstName = "Clara";
 let middleName = "Fla";
 let lastName = "Audia";
 
 // menggunakan +
 console.log(firstName + " " + middleName + " " + lastName)
+
+// Atau cara terbaru ga perlu pakai + karena lumayan panajng anda bisa menggunakan string literal ``
+console.log(`${firstName} ${middleName} ${lastName}`)
+
+// => Operator aritmatika...
+// Merupakan cara javacsript untuk melakukan operasi matematika...
+// Ada banyak [+,-,*,/,**] seperti matematika pada umumnya + untuk penjumlahan , - untuk pengurangan , * untuk perkalian dan / untuk pembagian dan ** untuk pemangkatan
+console.log(1 + 1);
+console.log(1 - 9);
+console.log(1 * 51);
+console.log(8 / 4);
+console.log(8 ** 2);
+
+// => Operator perbandingan
+// Merupakan cara untuk membandingnkan value 1 dan value 2 atau lebih , hasil dari perbandingan adalah boolean
+// Operator perbandingan sendiri ada [==,===,<,>,<=,>=,!=,!==]
+console.log(1 == "1");
+console.log(1 === "1");
+console.log(1 < 2);
+console.log(1 > 0);
+console.log(1 <= 10);
+console.log(1 >= 2);
+console.log(1 != "zumal");
+console.log(1 !== "1");
+
+
+// => Operator Logika
+// Sama seperti oepartor perbandingan akan menghasilkan nilai boolean
+// Jadi di operator logika ada [&&,||.!]
+// Klo && maka jika nilai 1 false dan nilai 2 true maka hasilnya false
+// klo || setidaknya ada nilai yang true maka hasilnya true
+// kli ! seperti kebalikan dari nilai 
+console.log(true && false);
+console.log(true || false);
+console.log(!false);
+
+
+// => IF , else if , else...
+// if statement akan menjalankan blok kode jika kondisinya true
+// else if sama sperti if , tap else if sendiri tidak wajib ada jika kondisi hanya 1
+// Jika if ataupun else if false maka pilihan terakhir menjalankan blok kode yang ada di else
+let value = 60;
+if(value < 90 && value >= 60) {
+     console.log("Nilai kamu dibawah 90");
+     
+}else {
+     console.log("Nilai kamu dibawah 60");
+}
+
+// => Switch merupakan if else versi simple
+let hari = "kamis";
+switch(hari) {
+     case "senin":
+          console.log("Hari senin");
+          break;
+     case "selasa":
+               console.log("Hari selasa");
+          break;
+     case "rabu":
+                consoe.log("Hari Rabu");
+          break;
+     default:
+               console.log("bukan hari senin-rabu");
+          break;
+}
+
+
+
+
 
 
